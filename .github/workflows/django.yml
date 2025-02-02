@@ -46,7 +46,7 @@ jobs:
       - name: Build Docker image
         run: | 
           docker build -t my-django-blog-app:latest .
-          docker tag my-django-app:latest ${{ secrets.DOCKER_USERNAME }}/my-django-blog-app:latest
+          docker tag my-django-blog-app:latest ${{ secrets.DOCKER_USERNAME }}/my-django-blog-app:latest
 
       - name: Push Docker image
         run: |
