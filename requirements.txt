@@ -1,0 +1,5 @@
+Django>=4.2,<5.0  # Django framework
+gunicorn  # (Optional) For production if needed
+django-crispy-forms
+crispy-bootstrap5
+Pillow
